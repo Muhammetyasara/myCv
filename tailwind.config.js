@@ -10,7 +10,7 @@ export default {
       colors: {
         primary: "#1E293B",
         accent: "#38BDF8",
-        darkBg: "#020617",
+        darkBg: "#000000",
       },
     },
   },

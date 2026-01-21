@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "en": {
+      "name": "Muhammet Yaşar Akıtıcı",
+      "title": "Creative thinker",
+      "subtitle": "Minimalism lover",
+      "description": "Hi, I’m Muhammet. I’m a full-stack developer. If you are looking for a developer who crafts solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
+      "primaryButton": "Hire Me"
+    },
+    "tr": {
+      "name": "Muhammet Yaşar Akıtıcı",
+      "title": "Yaratıcı düşünen",
+      "subtitle": "Minimalizm tutkunu",
+      "description": "Merhaba, ben Muhammet. Sağlam ve ölçeklenebilir frontend ürünleri geliştiren bir full-stack geliştiriciyim. Güçlü kullanıcı deneyimleri için birlikte çalışabiliriz.",
+      "primaryButton": "Beni İşe Al"
+    }
+  },
+
+  "header": {
+    "en": {
+      "skills": "Skills",
+      "projects": "Projects",
+      "primaryButton": "Hire Me"
+    },
+    "tr": {
+      "skills": "Yetenekler",
+      "projects": "Projeler",
+      "primaryButton": "Beni İşe Al"
+    }
+  }
+}

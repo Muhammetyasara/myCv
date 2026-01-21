@@ -1,29 +1,42 @@
-export default function Hero() {
-  return (
-    <section className="bg-slate-900 text-white">
-      <div className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
-        
-        <div>
-          <p className="text-sky-400 mb-2">Hi, I am</p>
-          <h2 className="text-4xl font-bold mb-4">Your Name</h2>
-          <p className="text-slate-300 mb-6">
-            Frontend Developer passionate about building beautiful and usable interfaces.
-          </p>
+import content from "../data/content.json";
 
-          <div className="flex gap-4">
-            <button className="bg-sky-400 text-slate-900 px-6 py-2 rounded font-medium">
-              Hire Me
-            </button>
-            <button className="border border-sky-400 px-6 py-2 rounded">
-              Download CV
-            </button>
-          </div>
+export default function Hero({ lang }) {
+  const data = content.hero[lang];
+
+  return (
+    <section className="dark:text-white text-black flex px-72 justify-between">
+      <div className="dark:text-white items-start flex flex-col mt-10 gap-y-16 flex-1">
+        <p className="dark:text-indigo-400 text-indigo-800 font-medium text-left">
+          ────── {data.name}
+        </p>
+        <h2 className="text-7xl font-bold text-left text-black dark:text-white">
+          {data.title} <br />
+          {data.subtitle}
+        </h2>
+        <p className="text-slate-600 dark:text-slate-300 text-left text-xl flex-wrap">
+          {data.description}
+        </p>
+
+        <div className="flex gap-2 text-white">
+          <button className="dark:bg-indigo-600 bg-indigo-800 px-6 py-2 rounded font-medium">
+            {data.primaryButton}
+          </button>
+          <button className="dark:text-indigo-400 border dark:border-indigo-400 border-indigo-800 px-6 py-2 rounded text-indigo-800 font-medium">
+            Github
+          </button>
+          <button className="dark:text-indigo-400 border dark:border-indigo-400 border-indigo-800 px-6 py-2 rounded text-indigo-800 font-medium">
+            Linkedin
+          </button>
         </div>
 
         <div className="flex justify-center">
-          <div className="w-64 h-64 rounded-full bg-slate-700"></div>
+          <img src="" />
         </div>
-
+      </div>
+      <div className="flex-1">
+        <div className="px-32 py-32">
+          <img className="rounded-2xl" src="./src/images/pp.png" alt="" />
+        </div>
       </div>
     </section>
   );

@@ -27,5 +27,154 @@
       "projects": "Projeler",
       "primaryButton": "Beni İşe Al"
     }
+  },
+
+  "skills": {
+    "en": {
+      "title": "Skills",
+      "javascript": {
+        "title": "JavaScript",
+        "description": "Strong understanding of core JavaScript concepts, async patterns, and clean, maintainable code practices."
+      },
+      "react": {
+        "title": "React.js",
+        "description": "Experienced in building component-based interfaces using hooks, state management, and reusable patterns."
+      },
+      "node": {
+        "title": "Node.js",
+        "description": "Skilled in developing RESTful APIs with Node.js, handling authentication, and server-side logic."
+      }
+    },
+    "tr": {
+      "title": "Yetenekler",
+      "javascript": {
+        "title": "JavaScript",
+        "description": "JavaScript temel kavramları, asenkron yapı ve sürdürülebilir, temiz kod yazımında yetkinim."
+      },
+      "react": {
+        "title": "React.js",
+        "description": "Hook’lar, state yönetimi ve tekrar kullanılabilir bileşenlerle modern arayüzler geliştiriyorum."
+      },
+      "node": {
+        "title": "Node.js",
+        "description": "Node.js ile REST API geliştirme, kimlik doğrulama ve sunucu tarafı mantık konularında deneyimliyim."
+      }
+    }
+  },
+  "profile": {
+    "en": {
+      "title": "Profile",
+      "sections": {
+        "profile": {
+          "title": "Profile",
+          "fields": {
+            "birthDate": {
+              "label": "Date of Birth",
+              "value": "28.03.1995"
+            },
+            "city": {
+              "label": "City of Residence",
+              "value": "Istanbul"
+            },
+            "education": {
+              "label": "Education",
+              "value": "Sakarya University, International Relations (Bachelor), 2022"
+            },
+            "role": {
+              "label": "Preferred Role",
+              "value": "Frontend, Backend"
+            }
+          }
+        },
+        "about": {
+          "title": "About Me",
+          "paragraphs": [
+            "I am a full-stack developer with a strong interest in building scalable, maintainable, and user-focused web applications. I prioritize clean architecture and readable code to ensure long-term project sustainability.",
+            "My main expertise lies in modern frontend development, particularly with component-based architectures and state-driven interfaces. I also have hands-on experience on the backend side, developing APIs and handling application logic."
+          ]
+        }
+      }
+    },
+    "tr": {
+      "title": "Profil",
+      "sections": {
+        "profile": {
+          "title": "Profil",
+          "fields": {
+            "birthDate": {
+              "label": "Doğum Tarihi",
+              "value": "28.03.1995"
+            },
+            "city": {
+              "label": "İkametgah Şehri",
+              "value": "İstanbul"
+            },
+            "education": {
+              "label": "Eğitim Durumu",
+              "value": "Sakarya Üniversitesi, Uluslararası İlişkiler Lisans, 2022"
+            },
+            "role": {
+              "label": "Tercih Ettiği Rol",
+              "value": "Frontend, Backend"
+            }
+          }
+        },
+        "about": {
+          "title": "Hakkımda",
+          "paragraphs": [
+            "Ölçeklenebilir, sürdürülebilir ve kullanıcı odaklı web uygulamaları geliştirmeye odaklanan bir full-stack geliştiriciyim. Temiz kod ve sağlam mimari prensiplerini ön planda tutarım.",
+            "Ağırlıklı olarak modern frontend geliştirme alanında çalışıyor, bileşen tabanlı yapılar ve state yönetimi üzerine yoğunlaşıyorum. Backend tarafında ise API geliştirme ve uygulama mantığı konularında deneyim sahibiyim."
+          ]
+        }
+      }
+    }
+  },
+  "projects": {
+    "en": {
+      "title": "Projects",
+      "viewSite": "View Site",
+      "items": [
+        {
+          "title": "Workintech",
+          "description": "A simple frontend project built with React, focusing on component structure and basic state management."
+        },
+        {
+          "title": "Workintech",
+          "description": "This project demonstrates API integration and data handling using Axios in a React application."
+        },
+        {
+          "title": "Workintech",
+          "description": "A frontend-focused project emphasizing reusable components, clean UI structure, and responsive layout."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Projeler",
+      "viewSite": "Siteyi Gör",
+      "items": [
+        {
+          "title": "Workintech",
+          "description": "React kullanılarak geliştirilen, bileşen yapısı ve temel state yönetimine odaklanan basit bir frontend projesi."
+        },
+        {
+          "title": "Workintech",
+          "description": "Axios ile API entegrasyonu ve veri yönetimini gösteren bir React frontend uygulaması."
+        },
+        {
+          "title": "Workintech",
+          "description": "Tekrar kullanılabilir bileşenler, temiz arayüz yapısı ve responsive tasarım odaklı bir frontend projesi."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "en": {
+      "title": "Let's work together on your next product",
+      "blog": "Personal Blog"
+    },
+    "tr": {
+      "title": "Bir sonraki ürününüz için birlikte çalışalım",
+      "blog": "Kişisel Blog"
+    }
   }
 }
